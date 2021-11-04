@@ -62,7 +62,7 @@ body {
 }
 
 .logo > img {
-  width: 20vw;
+  width: 300px;
   height: fit-content;
 }
 
@@ -92,7 +92,7 @@ body {
   }
 
   .logo > img {
-    width: 40vw;
+    width: 200px;
   }
 
   .comming-soon-msg {

@@ -29,7 +29,6 @@ body {
 .contact-info-right {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .contact-info-left > div,
@@ -97,5 +96,18 @@ body {
 
   .comming-soon-msg {
     font-size: 1.1rem;
+  }
+
+  .contact-info-left > div,
+  .contact-info-right > div {
+    padding: 0px;
+  }
+
+  .contact-info-left {
+    justify-content: space-between;
+  }
+
+  .contact-info-right {
+    justify-content: space-evenly;
   }
 }

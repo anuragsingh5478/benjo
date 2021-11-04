@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url("./assets/ezgif.com-gif-maker.gif");
+  background-size: cover;
+  color: whitesmoke;
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-info-left,
+.contact-info-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-info-left > div,
+.contact-info-right > div {
+  padding: 10px;
+}
+
+.contact-info-left > div > a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.contact-info-right > div > a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.contact-info-right > div > a > img {
+  width: 1.8rem;
+  height: fit-content;
+}
+
+.logo {
+  margin-top: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo > img {
+  width: fit-content;
+  height: 15vh;
+}
+
+.logo > img:hover {
+  cursor: pointer;
+}
+
+.comming-soon-msg {
+  margin: 5vh 0vw 0vh 0vw;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-size: 2rem;
+}
+
+.features {
+  margin-top: 18vh;
+  font-size: 1.8rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-info {
+    flex-direction: column;
+  }
+}

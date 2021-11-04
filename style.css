@@ -41,15 +41,18 @@ body {
   text-decoration: none;
 }
 
-.contact-info-right > div > a {
-  color: whitesmoke;
-  text-decoration: none;
-  font-weight: bolder;
-}
-
 .contact-info-right > div > a > img {
   width: 25px;
-  height: fit-content;
+  height: 25px;
+}
+
+.quora > a {
+  padding: 2px 5px;
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
 }
 
 .logo {
@@ -104,10 +107,12 @@ body {
   }
 
   .contact-info-left {
+    margin-top: 10px;
     justify-content: space-between;
   }
 
   .contact-info-right {
+    margin-top: 10px;
     justify-content: space-evenly;
   }
 }
